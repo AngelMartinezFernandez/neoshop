@@ -1,0 +1,50 @@
+// TODO: Desarrollar el CSS para el slider
+
+
+.container-slider{
+    width: 100%;
+    // max-width: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider {
+    display: flex;
+    width: 400%;
+    height: 400px;
+    margin-left: -100%;
+}
+
+.slider__section {
+    width: 100%;
+}
+.slider__image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider__btn {
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    color: white;
+    top: 7%;
+    // transform: translateY(-100%);
+    font-size: 5rem;
+    cursor: pointer;
+}
+
+.slider__btn:hover {
+    color: var(--orange);
+}
+
+.slider__btn--left {
+    left: 1vw;
+    
+}
+
+.slider__btn--right {
+    right: 1vw;
+}
